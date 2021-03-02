@@ -3,9 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste", "Teste", "{2059EEC7-21A8-4D00-BA0D-E4F89EA524BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4FE443B3-C6DA-4486-9994-5814B0D8F291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes_De_Unidade", "Testes_De_Unidade", "{A3187E22-942B-49B0-B9D3-CF19C9EB2133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_LojaVirtual", "01_LojaVirtual", "{81165E4F-DF78-4FB4-A607-0BECB47F3139}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaVirtual", "LojaVirtual\LojaVirtual.csproj", "{C3DA8B83-73F9-45E0-8DB2-79742C4F9501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestLivroTDDTesteDesignNoMundoReal", "NUnitTestLivroTDDTesteDesignNoMundoReal\NUnitTestLivroTDDTesteDesignNoMundoReal.csproj", "{FA8DBFFE-D96B-40C6-8463-E74754E1DA24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_ConversorNumeroRomano", "02_ConversorNumeroRomano", "{AE63D332-697D-4FB2-BBB6-1F9F55156689}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3DA8B83-73F9-45E0-8DB2-79742C4F9501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DA8B83-73F9-45E0-8DB2-79742C4F9501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DA8B83-73F9-45E0-8DB2-79742C4F9501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DA8B83-73F9-45E0-8DB2-79742C4F9501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8DBFFE-D96B-40C6-8463-E74754E1DA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8DBFFE-D96B-40C6-8463-E74754E1DA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8DBFFE-D96B-40C6-8463-E74754E1DA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8DBFFE-D96B-40C6-8463-E74754E1DA24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3187E22-942B-49B0-B9D3-CF19C9EB2133} = {4FE443B3-C6DA-4486-9994-5814B0D8F291}
+		{81165E4F-DF78-4FB4-A607-0BECB47F3139} = {A3187E22-942B-49B0-B9D3-CF19C9EB2133}
+		{C3DA8B83-73F9-45E0-8DB2-79742C4F9501} = {81165E4F-DF78-4FB4-A607-0BECB47F3139}
+		{FA8DBFFE-D96B-40C6-8463-E74754E1DA24} = {2059EEC7-21A8-4D00-BA0D-E4F89EA524BF}
+		{AE63D332-697D-4FB2-BBB6-1F9F55156689} = {A3187E22-942B-49B0-B9D3-CF19C9EB2133}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C101FD81-567E-483F-9335-7AA0417302D0}
